@@ -84,6 +84,12 @@
         folder_blue: ""
         folder_red: ""
         folder_yellow: ""
+        folder_green: ""
+        folder_black_blue: ""
+        folder_black_green: ""
+        folder_black_red: ""
+        folder_black_white: ""
+        folder_black_yellow: ""
 
 - type: entity
   parent: RMCIntelReadableBase
