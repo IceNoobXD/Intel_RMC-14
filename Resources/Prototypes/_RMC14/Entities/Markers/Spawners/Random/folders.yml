@@ -15,4 +15,49 @@
         - CMFolderYellow
         - CMFolderWhite
         - CMFolderBlack
+        - CMFolderGreen
+        - CMFolderBlackYellow
+        - CMFolderBlackWhite
+        - CMFolderBlackRed
+        - CMFolderBlackGreen
+        - CMFolderBlackBlue
+      offset: 0
+
+- type: entity
+  parent: MarkerBase
+  id: RMCSpawnerRandomNonBlackFolder
+  name: random no-black folder spawner
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - sprite: _RMC14/Objects/Misc/paper.rsi
+          state: folder
+    - type: RandomSpawner
+      prototypes:
+        - CMFolderBlue
+        - CMFolderRed
+        - CMFolderYellow
+        - CMFolderWhite
+        - CMFolderGreen
+      offset: 0
+
+- type: entity
+  parent: MarkerBase
+  id: RMCSpawnerRandomBlackFolder
+  name: random black folder spawner
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - sprite: _RMC14/Objects/Misc/paper.rsi
+          state: folder
+    - type: RandomSpawner
+      prototypes:
+        - CMFolderBlack
+        - CMFolderBlackYellow
+        - CMFolderBlackWhite
+        - CMFolderBlackRed
+        - CMFolderBlackGreen
+        - CMFolderBlackBlue
       offset: 0
