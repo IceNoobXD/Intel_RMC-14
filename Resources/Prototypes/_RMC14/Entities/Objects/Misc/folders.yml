@@ -113,6 +113,23 @@
   components:
   - type: Sprite
     state: folder_white
+    
+- type: entity
+  parent: CMFolderBase
+  id: CMFolderGreen
+  description: A fresh green folder.
+  components:
+  - type: Sprite
+    state: folder_green
+
+- type: entity
+  parent: CMFolderBaseEmpty
+  id: CMFolderGreenEmpty
+  description: A fresh green folder.
+  components:
+  - type: Sprite
+    state: folder_green
+
 
 - type: entity
   parent: CMFolderBase
@@ -130,4 +147,83 @@
   - type: Sprite
     state: folder_black
 
-# TODO RMC14 make /obj/item/folder/black_random , reference: /code/modules/paperwork/folders.dm 29,1
+- type: entity
+  parent: CMFolderBase
+  id: CMFolderBlackBlue
+  description: A sleek black folder accented with blue stripes.
+  components:
+  - type: Sprite
+    state: folder_black_blue
+
+- type: entity
+  parent: CMFolderBaseEmpty
+  id: CMFolderBlackBlueEmpty
+  description: A sleek black folder accented with blue stripes.
+  components:
+  - type: Sprite
+    state: folder_black_blue
+
+- type: entity
+  parent: CMFolderBase
+  id: CMFolderBlackGreen
+  description: A sleek black folder accented with green stripes.
+  components:
+  - type: Sprite
+    state: folder_black_green
+
+- type: entity
+  parent: CMFolderBaseEmpty
+  id: CMFolderBlackGreenEmpty
+  description: A sleek black folder accented with green stripes.
+  components:
+  - type: Sprite
+    state: folder_black_green
+
+- type: entity
+  parent: CMFolderBase
+  id: CMFolderBlackRed
+  description: A sleek black folder accented with red stripes.
+  components:
+  - type: Sprite
+    state: folder_black_red
+
+- type: entity
+  parent: CMFolderBaseEmpty
+  id: CMFolderBlackRedEmpty
+  description: A sleek black folder accented with red stripes.
+  components:
+  - type: Sprite
+    state: folder_black_red
+
+- type: entity
+  parent: CMFolderBase
+  id: CMFolderBlackWhite
+  description: A sleek black folder accented with white stripes.
+  components:
+  - type: Sprite
+    state: folder_black_white
+
+- type: entity
+  parent: CMFolderBaseEmpty
+  id: CMFolderBlackWhiteEmpty
+  description: A sleek black folder accented with white stripes.
+  components:
+  - type: Sprite
+    state: folder_black_white
+
+- type: entity
+  parent: CMFolderBase
+  id: CMFolderBlackYellow
+  description: A sleek black folder accented with yellow stripes.
+  components:
+  - type: Sprite
+    state: folder_black_yellow
+
+- type: entity
+  parent: CMFolderBaseEmpty
+  id: CMFolderBlackYellowEmpty
+  description: A sleek black folder accented with yellow stripes.
+  components:
+  - type: Sprite
+    state: folder_black_yellow
+
