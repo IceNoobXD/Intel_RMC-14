@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 11/07/2026 22:16:33
-  entityCount: 18732
+  time: 11/14/2026 18:16:05
+  entityCount: 18733
 maps:
 - 1
 grids:
@@ -54801,7 +54801,7 @@ entities:
       pos: 198.5,44.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -6680.528
+      secondsUntilStateChange: -6839.9404
       state: Opening
   - uid: 3195
     components:
@@ -55115,7 +55115,7 @@ entities:
     - type: Occluder
       enabled: False
     - type: Door
-      secondsUntilStateChange: -16180.635
+      secondsUntilStateChange: -16340.048
       state: Denying
   - uid: 3256
     components:
@@ -127087,6 +127087,8 @@ entities:
     - type: Transform
       pos: 147.5,76.5
       parent: 1
+    - type: RMCDoorButton
+      id: garage_ice_1
     - type: Fixtures
       fixtures: {}
   - uid: 16379
@@ -138268,6 +138270,13 @@ entities:
     components:
     - type: Transform
       pos: 6.5,10.5
+      parent: 1
+- proto: VehicleInvisibleWall
+  entities:
+  - uid: 17151
+    components:
+    - type: Transform
+      pos: 104.5,157.5
       parent: 1
 - proto: VendingMachineCondiments
   entities:
